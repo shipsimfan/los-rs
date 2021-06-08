@@ -1,0 +1,15 @@
+[submodule "kernel"]
+	path = kernel
+	url = https://github.com/shipsimfan/los-rs-kernel.git
+[submodule "toolchain/lasm"]
+	path = toolchain/lasm
+	url = https://github.com/shipsimfan/lasm.git
+[submodule "toolchain/lcc"]
+	path = toolchain/lcc
+	url = https://github.com/shipsimfan/lcc.git
+[submodule "toolchain/rsld"]
+	path = toolchain/rsld
+	url = https://github.com/shipsimfan/rsld.git
+[submodule "toolchain/lib-arguments"]
+	path = toolchain/lib-arguments
+	url = https://github.com/shipsimfan/lib-arguments.git
