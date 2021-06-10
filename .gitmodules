@@ -17,9 +17,8 @@
 [submodule "toolchain/lib-arguments"]
 	path = libraries/lib-arguments
 	url = https://github.com/shipsimfan/lib-arguments.git
+	branch = main
 [submodule "bootloader"]
 	path = bootloader
 	url = https://github.com/shipsimfan/los-rs-bootloader.git
-	branch = main
-[submodule "libraries/lib-arguments"]
 	branch = main
