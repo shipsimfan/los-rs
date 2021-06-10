@@ -1,18 +1,25 @@
 [submodule "kernel"]
 	path = kernel
 	url = https://github.com/shipsimfan/los-rs-kernel.git
+	branch = main
 [submodule "toolchain/lasm"]
 	path = toolchain/lasm
 	url = https://github.com/shipsimfan/lasm.git
+	branch = main
 [submodule "toolchain/lcc"]
 	path = toolchain/lcc
 	url = https://github.com/shipsimfan/lcc.git
+	branch = main
 [submodule "toolchain/rsld"]
 	path = toolchain/rsld
 	url = https://github.com/shipsimfan/rsld.git
+	branch = main
 [submodule "toolchain/lib-arguments"]
 	path = libraries/lib-arguments
 	url = https://github.com/shipsimfan/lib-arguments.git
 [submodule "bootloader"]
 	path = bootloader
 	url = https://github.com/shipsimfan/los-rs-bootloader.git
+	branch = main
+[submodule "libraries/lib-arguments"]
+	branch = main
