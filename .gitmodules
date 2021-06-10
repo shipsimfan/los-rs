@@ -11,7 +11,7 @@
 	path = toolchain/rsld
 	url = https://github.com/shipsimfan/rsld.git
 [submodule "toolchain/lib-arguments"]
-	path = toolchain/lib-arguments
+	path = libraries/lib-arguments
 	url = https://github.com/shipsimfan/lib-arguments.git
 [submodule "bootloader"]
 	path = bootloader
