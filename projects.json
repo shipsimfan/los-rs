@@ -1,0 +1,32 @@
+{
+    "default_build": {
+        "command": "cargo",
+        "args": [
+            "build"
+        ]
+    },
+    "default_clean": {
+        "command": "cargo",
+        "args": [
+            "clean"
+        ]
+    },
+    "projects": {
+        "Bootloader": {
+            "path": "./bootloader",
+            "output_path": "target/x86_64-unknown-uefi/debug/bootloader.efi",
+            "install_path": "EFI/BOOT/BOOTX64.EFI"
+        },
+        "Kernel": {
+            "path": "./kernel",
+            "output_path": "target/x86_64-los/debug/kernel",
+            "install_path": "kernel.elf"
+        }
+    },
+    "configurations": {
+        "default": [
+            "Bootloader",
+            "Kernel"
+        ]
+    }
+}
