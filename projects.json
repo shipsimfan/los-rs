@@ -21,12 +21,48 @@
             "path": "./kernel",
             "output_path": "target/x86_64-los/debug/kernel",
             "install_path": "kernel.elf"
+        },
+        "lib-c": {
+            "path": "./libraries/lib-c",
+            "output_path": "libc.a",
+            "install_path": "los/lib/libc.a",
+            "build_command": {
+                "command": "make",
+                "args": [
+                    "install"
+                ]
+            },
+            "clean_command": {
+                "command": "make",
+                "args": [
+                    "clean"
+                ]
+            }
+        },
+        "lib-kernel": {
+            "path": "./libraries/lib-kernel",
+            "output_path": "libkernel.a",
+            "install_path": "los/lib/libkernel.a",
+            "build_command": {
+                "command": "make",
+                "args": [
+                    "install"
+                ]
+            },
+            "clean_command": {
+                "command": "make",
+                "args": [
+                    "clean"
+                ]
+            }
         }
     },
     "configurations": {
         "default": [
             "Bootloader",
-            "Kernel"
+            "Kernel",
+            "lib-c",
+            "lib-kernel"
         ]
     }
 }

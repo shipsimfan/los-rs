@@ -26,3 +26,11 @@
 	path = libraries/lib-json
 	url = https://github.com/shipsimfan/lib-json.git
 	branch = main
+[submodule "libraries/lib-c"]
+	path = libraries/lib-c
+	url = https://github.com/shipsimfan/lib-c.git
+	branch = main
+[submodule "libraries/lib-kernel"]
+	path = libraries/lib-kernel
+	url = https://github.com/shipsimfan/lib-kernel.git
+	branch = main
