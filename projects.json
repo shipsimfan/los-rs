@@ -55,6 +55,20 @@
                     "clean"
                 ]
             }
+        },
+        "shell": {
+            "path": "./shell",
+            "output_path": "shell.app",
+            "install_path": "los/shell.app",
+            "build_command": {
+                "command": "make"
+            },
+            "clean_command": {
+                "command": "make",
+                "args": [
+                    "clean"
+                ]
+            }
         }
     },
     "configurations": {
@@ -62,7 +76,8 @@
             "Bootloader",
             "Kernel",
             "lib-c",
-            "lib-kernel"
+            "lib-kernel",
+            "shell"
         ]
     }
 }

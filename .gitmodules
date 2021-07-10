@@ -34,3 +34,7 @@
 	path = libraries/lib-kernel
 	url = https://github.com/shipsimfan/lib-kernel.git
 	branch = main
+[submodule "shell"]
+	path = shell
+	url = https://github.com/shipsimfan/shell.git
+	branch = main
