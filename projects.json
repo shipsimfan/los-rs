@@ -78,6 +78,11 @@
             "lib-c",
             "lib-kernel",
             "shell"
+        ],
+        "user": [
+            "lib-c",
+            "lib-kernel",
+            "shell"
         ]
     }
 }
