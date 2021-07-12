@@ -75,13 +75,13 @@
         "default": [
             "Bootloader",
             "Kernel",
-            "lib-c",
             "lib-kernel",
+            "lib-c",
             "shell"
         ],
         "user": [
-            "lib-c",
             "lib-kernel",
+            "lib-c",
             "shell"
         ]
     }
