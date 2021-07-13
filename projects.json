@@ -56,10 +56,24 @@
                 ]
             }
         },
-        "shell": {
+        "Shell": {
             "path": "./shell",
             "output_path": "shell.app",
             "install_path": "los/shell.app",
+            "build_command": {
+                "command": "make"
+            },
+            "clean_command": {
+                "command": "make",
+                "args": [
+                    "clean"
+                ]
+            }
+        },
+        "Cat": {
+            "path": "./programs/cat",
+            "output_path": "cat.app",
+            "install_path": "los/cat.app",
             "build_command": {
                 "command": "make"
             },
@@ -77,12 +91,14 @@
             "Kernel",
             "lib-kernel",
             "lib-c",
-            "shell"
+            "Shell",
+            "Cat"
         ],
         "user": [
             "lib-kernel",
             "lib-c",
-            "shell"
+            "Shell",
+            "Cat"
         ]
     }
 }

@@ -38,3 +38,7 @@
 	path = shell
 	url = https://github.com/shipsimfan/shell.git
 	branch = main
+[submodule "programs/cat"]
+	path = programs/cat
+	url = https://github.com/shipsimfan/cat.git
+	branch = main
