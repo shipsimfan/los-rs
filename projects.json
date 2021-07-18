@@ -1,26 +1,51 @@
 {
     "default_build": {
-        "command": "cargo",
+        "command": "make",
         "args": [
-            "build"
+            "-s"
         ]
     },
     "default_clean": {
-        "command": "cargo",
+        "command": "make",
         "args": [
-            "clean"
+            "clean",
+            "-s"
         ]
     },
     "projects": {
         "Bootloader": {
             "path": "./bootloader",
             "output_path": "target/x86_64-unknown-uefi/debug/bootloader.efi",
-            "install_path": "EFI/BOOT/BOOTX64.EFI"
+            "install_path": "EFI/BOOT/BOOTX64.EFI",
+            "build_command": {
+                "command": "cargo",
+                "args": [
+                    "build"
+                ]
+            },
+            "clean_commad": {
+                "command": "cargo",
+                "args": [
+                    "clean"
+                ]
+            }
         },
         "Kernel": {
             "path": "./kernel",
             "output_path": "target/x86_64-los/debug/kernel",
-            "install_path": "kernel.elf"
+            "install_path": "kernel.elf",
+            "build_command": {
+                "command": "cargo",
+                "args": [
+                    "build"
+                ]
+            },
+            "clean_commad": {
+                "command": "cargo",
+                "args": [
+                    "clean"
+                ]
+            }
         },
         "lib-c": {
             "path": "./libraries/lib-c",
@@ -29,13 +54,8 @@
             "build_command": {
                 "command": "make",
                 "args": [
+                    "-s",
                     "install"
-                ]
-            },
-            "clean_command": {
-                "command": "make",
-                "args": [
-                    "clean"
                 ]
             }
         },
@@ -46,43 +66,40 @@
             "build_command": {
                 "command": "make",
                 "args": [
+                    "-s",
                     "install"
-                ]
-            },
-            "clean_command": {
-                "command": "make",
-                "args": [
-                    "clean"
                 ]
             }
         },
         "Shell": {
             "path": "./shell",
             "output_path": "shell.app",
-            "install_path": "los/shell.app",
-            "build_command": {
-                "command": "make"
-            },
-            "clean_command": {
-                "command": "make",
-                "args": [
-                    "clean"
-                ]
-            }
+            "install_path": "los/shell.app"
         },
-        "Cat": {
+        "cat": {
             "path": "./programs/cat",
             "output_path": "cat.app",
-            "install_path": "los/cat.app",
-            "build_command": {
-                "command": "make"
-            },
-            "clean_command": {
-                "command": "make",
-                "args": [
-                    "clean"
-                ]
-            }
+            "install_path": "los/cat.app"
+        },
+        "printenv": {
+            "path": "./programs/printenv",
+            "output_path": "printenv.app",
+            "install_path": "los/printenv.app"
+        },
+        "ls": {
+            "path": "./programs/ls",
+            "output_path": "ls.app",
+            "install_path": "los/ls.app"
+        },
+        "pwd": {
+            "path": "./programs/pwd",
+            "output_path": "pwd.app",
+            "install_path": "los/pwd.app"
+        },
+        "echo": {
+            "path": "./programs/echo",
+            "output_path": "echo.app",
+            "install_path": "los/echo.app"
         }
     },
     "configurations": {
@@ -92,13 +109,21 @@
             "lib-kernel",
             "lib-c",
             "Shell",
-            "Cat"
+            "cat",
+            "ls",
+            "pwd",
+            "echo",
+            "printenv"
         ],
         "user": [
             "lib-kernel",
             "lib-c",
             "Shell",
-            "Cat"
+            "cat",
+            "ls",
+            "pwd",
+            "echo",
+            "printenv"
         ]
     }
 }
