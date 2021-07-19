@@ -23,7 +23,7 @@
                     "build"
                 ]
             },
-            "clean_commad": {
+            "clean_command": {
                 "command": "cargo",
                 "args": [
                     "clean"
@@ -40,7 +40,7 @@
                     "build"
                 ]
             },
-            "clean_commad": {
+            "clean_command": {
                 "command": "cargo",
                 "args": [
                     "clean"
@@ -74,32 +74,32 @@
         "Shell": {
             "path": "./shell",
             "output_path": "shell.app",
-            "install_path": "los/shell.app"
+            "install_path": "los/bin/shell.app"
         },
         "cat": {
             "path": "./programs/cat",
             "output_path": "cat.app",
-            "install_path": "los/cat.app"
+            "install_path": "los/bin/cat.app"
         },
         "printenv": {
             "path": "./programs/printenv",
             "output_path": "printenv.app",
-            "install_path": "los/printenv.app"
+            "install_path": "los/bin/printenv.app"
         },
         "ls": {
             "path": "./programs/ls",
             "output_path": "ls.app",
-            "install_path": "los/ls.app"
+            "install_path": "los/bin/ls.app"
         },
         "pwd": {
             "path": "./programs/pwd",
             "output_path": "pwd.app",
-            "install_path": "los/pwd.app"
+            "install_path": "los/bin/pwd.app"
         },
         "echo": {
             "path": "./programs/echo",
             "output_path": "echo.app",
-            "install_path": "los/echo.app"
+            "install_path": "los/bin/echo.app"
         }
     },
     "configurations": {
