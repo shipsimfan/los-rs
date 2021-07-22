@@ -59,6 +59,18 @@
                 ]
             }
         },
+	"lib-c++": {
+	    "path": "./libraries/lib-c++",
+	    "output_path": "libc++.a",
+	    "install_path": "los/lib/libc++.a",
+	    "build_command": {
+	 	"command": "make",
+		"args": [
+		    "-s",
+		    "install"
+		]
+	    }
+	},
         "lib-kernel": {
             "path": "./libraries/lib-kernel",
             "output_path": "libkernel.a",

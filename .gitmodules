@@ -58,3 +58,7 @@
 	path = programs/echo
 	url = https://github.com/shipsimfan/echo.git
 	branch = main
+[submodule "libraries/lib-c++"]
+	path = libraries/lib-c++
+	url = https://github.com/shipsimfan/lib-cpp.git
+	branch = main
