@@ -120,6 +120,7 @@
             "Kernel",
             "lib-kernel",
             "lib-c",
+            "lib-c++",
             "Shell",
             "cat",
             "ls",
@@ -130,6 +131,7 @@
         "user": [
             "lib-kernel",
             "lib-c",
+            "lib-c++",
             "Shell",
             "cat",
             "ls",
