@@ -117,6 +117,11 @@
             "path": "./programs/date",
             "output_path": "date.app",
             "install_path": "los/bin/date.app"
+        },
+        "cal": {
+            "path": "./programs/cal",
+            "output_path": "cal.app",
+            "install_path": "los/bin/cal.app"
         }
     },
     "configurations": {
@@ -132,7 +137,8 @@
             "pwd",
             "echo",
             "printenv",
-            "date"
+            "date",
+            "cal"
         ],
         "user": [
             "lib-kernel",
@@ -144,7 +150,8 @@
             "pwd",
             "echo",
             "printenv",
-            "date"
+            "date",
+            "cal"
         ]
     }
 }

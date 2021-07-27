@@ -66,3 +66,6 @@
 	path = programs/date
 	url = https://github.com/shipsimfan/date.git
 	branch = main
+[submodule "programs/cal"]
+	path = programs/cal
+	url = https://github.com/shipsimfan/cal.git
