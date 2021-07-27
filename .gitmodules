@@ -62,3 +62,7 @@
 	path = libraries/lib-c++
 	url = https://github.com/shipsimfan/lib-cpp.git
 	branch = main
+[submodule "programs/date"]
+	path = programs/date
+	url = https://github.com/shipsimfan/date.git
+	branch = main
