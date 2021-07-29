@@ -70,3 +70,7 @@
 	path = programs/cal
 	url = https://github.com/shipsimfan/cal.git
 	branch = main
+[submodule "programs/truncate"]
+	path = programs/truncate
+	url = https://github.com/shipsimfan/truncate.git
+	branch = main
