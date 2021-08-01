@@ -74,3 +74,11 @@
 	path = programs/truncate
 	url = https://github.com/shipsimfan/truncate.git
 	branch = main
+[submodule "programs/rmdir"]
+	path = programs/rmdir
+	url = https://github.com/shipsimfan/rmdir.git
+	branch = main
+[submodule "programs/rm"]
+	path = programs/rm
+	url = https://github.com/shipsimfan/rm.git
+	branch = main

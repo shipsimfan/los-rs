@@ -127,6 +127,16 @@
             "path": "./programs/truncate",
             "output_path": "truncate.app",
             "install_path": "los/bin/truncate.app"
+        },
+        "rm": {
+            "path": "./programs/rm",
+            "output_path": "rm.app",
+            "install_path": "los/bin/rm.app"
+        },
+        "rmdir": {
+            "path": "./programs/rmdir",
+            "output_path": "rmdir.app",
+            "install_path": "los/bin/rmdir.app"
         }
     },
     "configurations": {
@@ -144,7 +154,9 @@
             "printenv",
             "date",
             "cal",
-            "truncate"
+            "truncate",
+            "rm",
+            "rmdir"
         ],
         "user": [
             "lib-kernel",
@@ -158,7 +170,9 @@
             "printenv",
             "date",
             "cal",
-            "truncate"
+            "truncate",
+            "rm",
+            "rmdir"
         ]
     }
 }
