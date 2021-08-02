@@ -137,6 +137,11 @@
             "path": "./programs/rmdir",
             "output_path": "rmdir.app",
             "install_path": "los/bin/rmdir.app"
+        },
+        "mkdir": {
+            "path": "./programs/mkdir",
+            "output_path": "mkdir.app",
+            "install_path": "los/bin/mkdir.app"
         }
     },
     "configurations": {
@@ -156,7 +161,8 @@
             "cal",
             "truncate",
             "rm",
-            "rmdir"
+            "rmdir",
+            "mkdir"
         ],
         "user": [
             "lib-kernel",
@@ -172,7 +178,8 @@
             "cal",
             "truncate",
             "rm",
-            "rmdir"
+            "rmdir",
+            "mkdir"
         ]
     }
 }
