@@ -85,3 +85,6 @@
 [submodule "programs/mkdir"]
 	path = programs/mkdir
 	url = https://github.com/shipsimfan/mkdir.git
+[submodule "programs/cp"]
+	path = programs/cp
+	url = https://github.com/shipsimfan/cp.git

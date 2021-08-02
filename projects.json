@@ -142,6 +142,11 @@
             "path": "./programs/mkdir",
             "output_path": "mkdir.app",
             "install_path": "los/bin/mkdir.app"
+        },
+        "cp": {
+            "path": "./programs/cp",
+            "output_path": "cp.app",
+            "install_path": "los/bin/cp.app"
         }
     },
     "configurations": {
@@ -162,7 +167,8 @@
             "truncate",
             "rm",
             "rmdir",
-            "mkdir"
+            "mkdir",
+            "cp"
         ],
         "user": [
             "lib-kernel",
@@ -179,7 +185,8 @@
             "truncate",
             "rm",
             "rmdir",
-            "mkdir"
+            "mkdir",
+            "cp"
         ]
     }
 }
