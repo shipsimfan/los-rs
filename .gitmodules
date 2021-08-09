@@ -1,72 +1,20 @@
-[submodule "kernel"]
-	path = kernel
-	url = https://github.com/shipsimfan/los-rs-kernel.git
-	branch = main
 [submodule "bootloader"]
 	path = bootloader
 	url = https://github.com/shipsimfan/los-rs-bootloader.git
 	branch = main
-[submodule "libraries/lib-c"]
-	path = libraries/lib-c
-	url = https://github.com/shipsimfan/lib-c.git
+[submodule "kernel"]
+	path = kernel
+	url = https://github.com/shipsimfan/los-rs-kernel.git
 	branch = main
 [submodule "libraries/lib-kernel"]
 	path = libraries/lib-kernel
 	url = https://github.com/shipsimfan/lib-kernel.git
 	branch = main
-[submodule "shell"]
-	path = shell
-	url = https://github.com/shipsimfan/shell.git
-	branch = main
-[submodule "programs/cat"]
-	path = programs/cat
-	url = https://github.com/shipsimfan/cat.git
-	branch = main
-[submodule "programs/ls"]
-	path = programs/ls
-	url = https://github.com/shipsimfan/ls.git
-	branch = main
-[submodule "programs/printenv"]
-	path = programs/printenv
-	url = https://github.com/shipsimfan/printenv.git
-	branch = main
-[submodule "programs/pwd"]
-	path = programs/pwd
-	url = https://github.com/shipsimfan/pwd.git
-	branch = main
-[submodule "programs/echo"]
-	path = programs/echo
-	url = https://github.com/shipsimfan/echo.git
+[submodule "libraries/lib-c"]
+	path = libraries/lib-c
+	url = https://github.com/shipsimfan/lib-c.git
 	branch = main
 [submodule "libraries/lib-c++"]
 	path = libraries/lib-c++
 	url = https://github.com/shipsimfan/lib-cpp.git
-	branch = main
-[submodule "programs/date"]
-	path = programs/date
-	url = https://github.com/shipsimfan/date.git
-	branch = main
-[submodule "programs/cal"]
-	path = programs/cal
-	url = https://github.com/shipsimfan/cal.git
-	branch = main
-[submodule "programs/truncate"]
-	path = programs/truncate
-	url = https://github.com/shipsimfan/truncate.git
-	branch = main
-[submodule "programs/rmdir"]
-	path = programs/rmdir
-	url = https://github.com/shipsimfan/rmdir.git
-	branch = main
-[submodule "programs/rm"]
-	path = programs/rm
-	url = https://github.com/shipsimfan/rm.git
-	branch = main
-[submodule "programs/mkdir"]
-	path = programs/mkdir
-	url = https://github.com/shipsimfan/mkdir.git
-	branch = main
-[submodule "programs/cp"]
-	path = programs/cp
-	url = https://github.com/shipsimfan/cp.git
 	branch = main
