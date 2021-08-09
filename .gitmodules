@@ -18,3 +18,11 @@
 	path = libraries/lib-c++
 	url = https://github.com/shipsimfan/lib-cpp.git
 	branch = main
+[submodule "programs/coreutils"]
+	path = programs/coreutils
+	url = https://github.com/shipsimfan/coreutils.git
+	branch = main
+[submodule "programs/cshell"]
+	path = programs/cshell
+	url = https://github.com/shipsimfan/cshell.git
+	branch = main
