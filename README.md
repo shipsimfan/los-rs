@@ -6,9 +6,9 @@ Lance OS is dependent on a few programs in order to build:
  * [Rust](https://www.rust-lang.org/) (Nightly with sources)
  * [LOS Compatible Clang](https://github.com/shipsimfan/llvm-los)
  * [NASM](https://www.nasm.us/)
- * Make
  * AR
  * [losb](https://github.com/shipsimfan/losb)
+ * [build](https://github.com/shipsimfan/build)
 
 ## Running Requirements
 Lance OS has the current system requirements:
