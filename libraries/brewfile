@@ -1,0 +1,3 @@
+type = group
+
+priority = lib-kernel,lib-c
