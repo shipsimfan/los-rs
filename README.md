@@ -8,7 +8,7 @@ Lance OS is dependent on a few programs in order to build:
  * [NASM](https://www.nasm.us/)
  * AR
  * [losb](https://github.com/shipsimfan/losb)
- * [build](https://github.com/shipsimfan/build)
+ * [brew](https://github.com/shipsimfan/brew)
 
 ## Running Requirements
 Lance OS has the current system requirements:
